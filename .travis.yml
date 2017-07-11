@@ -1,0 +1,15 @@
+language: java
+
+sudo: false
+
+jdk:
+  - openjdk7
+  - oraclejdk8
+
+os:
+  - linux
+
+
+script:
+ - ./clean.sh
+ - ./build.sh
